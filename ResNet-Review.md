@@ -3,7 +3,7 @@
 Read the 2016 paper by kaiming he about deep residual learning. Basically I wanted to understand why deep neural networks fail after some layers. 
 
 So the main problem they talked about is degradation. When we add too many layers (like 56 layers vs 20 layers), the model performance actually drops and training error
-goes up. Its not because of overfitting.The real issue is that gradients vanish when going way too deep, so early layers just stop learning anything useful.
+goes up. Its not because of overfitting.The real issue is that gradients vanish when going way too deep.Though kaiming he said batch normalization keeps the gradients alive. The real problem is optimization degradation, meaning the network gets so deep that it struggles to learn even simple things like passing the exact same data ahead.So early layers just stop learning anything useful.
 
 To solve this vanishing gradient stuff, kaiming he introduced identity shortcut connections. The formula is H(x) = F(x) + x. Here x is the raw input. Even if the
 intermediate layers F(x) give zero gradients or fail to learn, the input x can still flow ahead through this bypass highway. It doesnt add extra parameters or make
