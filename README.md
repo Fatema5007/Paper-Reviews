@@ -9,6 +9,7 @@ A personal repository dedicated to documenting study notes, critical reviews, an
 | **ResNet** | Deep Residual Learning | Solving degradation problem in deep CNNs | [ResNet-Review.md](ResNet-Review.md) |
 | **U-Net** | Biomedical Image Segmentation | Encoder-Decoder architecture with skip connections | [U-Net-Review.md](U-Net-Review.md) |
 | **Vision Transformer (ViT)** | Transformers / Image Recognition | Applying NLP transformers directly to image patches | [ViT-Review.md](ViT-Review.md) |
+| 04 | Attention Is All You Need (Transformer) | Self-Attention, Encoder-Decoder, NLP Foundation | [Transformer-Review.md](Transformer-Review.md) |
 
 *(More paper reviews will be added as the study journey continues!)*
 
