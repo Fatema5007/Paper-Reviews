@@ -4,8 +4,6 @@ A personal repository dedicated to documenting study notes, critical reviews, an
 
 ## 📑 Reviewed Papers
 
-## 📑 Reviewed Papers
-
 | Paper Name | Architecture / Topic | Key Focus | Review Link |
 | :--- | :--- | :--- | :--- |
 | **ResNet** | Deep Residual Learning | Solving degradation problem in deep CNNs | [ResNet-Review.md](ResNet-Review.md) |
